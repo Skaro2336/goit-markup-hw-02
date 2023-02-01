@@ -1,23 +1,14 @@
-:root {
-    --primary-text-color: #2e2f42;
-    --text-color: #434455;
-    --footer-text-color: #e7e9fc;
-    --background-white-color: #f4f4fd;
-    --iris-color: #4d5ae5;
-    --white-color: #ffffff;
-    --accent-color: #404bbf;
-}
-
 body {
     font-family: "roboto", sans-serif;
-    background-color: var(--white-text-color);
+    background-color: #ffffff;
+    ;
 }
 
 ul {
     list-style: none;
 }
 
-/* Шапка сайта */
+/* header */
 
 .logo {
     width: 115px;
@@ -26,14 +17,14 @@ ul {
     top: 24px;
     font-family: raleway;
     text-decoration: none;
-    color: var(--primary-text-color);
+    color: #2E2F42;
 }
 
 .logo-text {
-    color: var(--iris-color);
+    color: #4d5ae5;
 }
 
-/* Навигацыя */
+/* nav */
 
 .site-nav {
     font-style: normal;
@@ -45,12 +36,12 @@ ul {
 
 .site-nav :hover,
 .site-nav :focus {
-    color: var(--accent-color);
+    color: #404bbf;
 }
 
 .link {
     text-decoration: none;
-    color: var(--primary-text-color);
+    color: #2E2F42;
 }
 
 .link-address {
@@ -59,17 +50,17 @@ ul {
     font-size: 16px;
     line-height: 1.5;
     text-decoration: none;
-    color: var(--text-color);
+    color: #434455;
 }
 
-/* Герой */
+/* hero */
 
 .section-hero {
     width: 1440px;
     height: 600px;
     left: 0px;
     top: 72px;
-    background-color: var(--primary-text-color);
+    background-color: #2e2f42;
 }
 
 .title-hero {
@@ -79,10 +70,10 @@ ul {
     line-height: 1.1;
     text-align: center;
     letter-spacing: 0.02em;
-    color: var(--white-color);
+    color: #ffffff;
 }
 
-/* Кнопки */
+/* buttons */
 .primary-button {
     width: 169px;
     height: 56px;
@@ -92,8 +83,8 @@ ul {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    background: var(--iris-color);
-    color: var(--white-color);
+    background: #4d5ae5;
+    color: #ffffff;
     border-radius: 4px;
     border: 0px solid;
     cursor: pointer;
@@ -101,8 +92,8 @@ ul {
 
 .primary-button:hover,
 .primary-button:focus {
-    background: var(--accent-color);
-    color: var(--white-color);
+    background: #404bbf;
+    color: #ffffff;
 }
 
 .secondary-button {
@@ -114,8 +105,8 @@ ul {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    background: var(--background-white-color);
-    color: var(--iris-color);
+    background: #f4f4fd;
+    color: #4d5ae5;
     border: 1px solid #e7e9fc;
     border-radius: 4px;
     cursor: pointer;
@@ -123,18 +114,18 @@ ul {
 
 .secondary-button:hover,
 .secondary-button:focus {
-    background: var(--accent-color);
-    color: var(--background-white-color);
+    background: #404bbf;
+    color: #f4f4fd;
 }
 
-/* Секции */
+/* section */
 
 .section-title {
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    color: var(--primary-text-color);
+    color: #2e2f42;
 }
 
 .title-text {
@@ -142,7 +133,7 @@ ul {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.1;
-    color: var(--primary-text-color);
+    color: #2e2f42;
 }
 
 .section-text {
@@ -150,28 +141,28 @@ ul {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    color: var(--text-color);
+    color: #434455;
 }
 
 .team-section {
-    background-color: var(--background-white-color);
+    background-color: #f4f4fd;
 }
 
-/* Подвал */
+/* fooder */
 
 .footer-site {
     top: 2280px;
-    background-color: var(--primary-text-color);
+    background-color: #2e2f42;
 }
 
 .footer-logo {
     text-decoration: none;
     font-family: raleway;
-    color: var(--background-white-color);
+    color: #f4f4fd;
 }
 
 .footer-object {
-    color: var(--iris-color);
+    color: #4d5ae5;
 }
 
 .footer-text {
@@ -179,5 +170,5 @@ ul {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    color: var(--footer-text-color);
+    color: #e7e9fc;
 }
