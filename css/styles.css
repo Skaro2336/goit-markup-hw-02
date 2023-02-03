@@ -1,6 +1,7 @@
 body {
     font-family: "roboto", sans-serif;
     background-color: #ffffff;
+    color: #434455;
     ;
 }
 
@@ -11,28 +12,19 @@ ul {
 /* header */
 
 .logo {
-    width: 115px;
-    height: 24px;
-    left: 156px;
-    top: 24px;
-    font-family: raleway;
-    text-decoration: none;
+    font-family: "raleway", sans-serif;
+        text-decoration: none;
     color: #2E2F42;
 }
 
 .logo-text {
     color: #4d5ae5;
+    
 }
 
 /* nav */
 
-.site-nav {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-}
+
 
 .site-nav :hover,
 .site-nav :focus {
@@ -40,24 +32,25 @@ ul {
 }
 
 .link {
-    text-decoration: none;
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        text-decoration: none;
     color: #2E2F42;
 }
 
 .link-address {
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
-    line-height: 1.5;
-    text-decoration: none;
+        line-height: 1.5;
+        text-decoration: none;
     color: #434455;
 }
 
 /* hero */
 
 .section-hero {
-    width: 1440px;
-    height: 600px;
+   
     left: 0px;
     top: 72px;
     background-color: #2e2f42;
@@ -65,11 +58,11 @@ ul {
 
 .title-hero {
     font-style: normal;
-    font-weight: 700;
-    font-size: 56px;
-    line-height: 1.1;
-    text-align: center;
-    letter-spacing: 0.02em;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 1.1;
+        text-align: center;
+        letter-spacing: 0.02em;
     color: #ffffff;
 }
 
@@ -121,27 +114,23 @@ ul {
 /* section */
 
 .section-title {
-    font-style: normal;
     font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
+        font-size: 20px;
+        line-height: 1.2;
     color: #2e2f42;
 }
 
 .title-text {
-    font-style: normal;
-    font-weight: 700;
+font-weight: 700;
     font-size: 36px;
     line-height: 1.1;
     color: #2e2f42;
 }
 
 .section-text {
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
-    line-height: 1.5;
-    color: #434455;
+        line-height: 1.5;
+   
 }
 
 .team-section {
@@ -166,9 +155,7 @@ ul {
 }
 
 .footer-text {
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
-    line-height: 1.5;
+        line-height: 1.5;
     color: #e7e9fc;
 }
