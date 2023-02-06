@@ -53,7 +53,8 @@ ul {
   text-decoration: none;
   color: var(--primary-text-color);
 }
-.site-link:hover .site-link:focus {
+.site-link:hover,
+.site-link:focus {
   color: var(--accent-color);
 }
 
